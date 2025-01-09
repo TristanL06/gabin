@@ -52,15 +52,21 @@ button:hover {
 /* Responsive adjustments */
 @media (max-width: 600px) {
     h1 {
-        font-size: 24px;
+        font-size: 28px;
     }
 
     button {
-        font-size: 14px;
+        font-size: 18px;
+        padding: 15px;
     }
 
     input[type="number"],
     input[type="text"] {
-        font-size: 14px;
+        font-size: 18px;
+        padding: 12px;
+    }
+
+    #resultat {
+        font-size: 20px;
     }
 }
